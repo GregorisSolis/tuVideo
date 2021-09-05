@@ -1,0 +1,110 @@
+header{
+  width: 100%;
+  background-color: #202020;
+  overflow: hidden;
+  position: fixed;
+}
+
+.container-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  height: 8vh;
+  box-sizing: border-box;
+  padding: 2% 0;
+}
+
+.container-logo_tuvideo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5%;
+}
+
+.container-logo_tuvideo i{font-size: 1.8rem; color: red; margin:1%}
+
+.container-logo_tuvideo .logo_tuvideo{margin: 0;}
+
+.container-input_search,
+.container-icon_menu_logo{
+  display: flex;
+  align-items: center;
+}
+
+.container-icon_menu_logo .icon-menu{
+  margin:0;
+  font-size: 1.7rem;
+}
+
+.container-icon_menu_logo{width: 18%;}
+.container-setting_apps{width: 16%}
+.container-input_search{width: 55%;}
+
+.container-input_search input{
+  width: 75%;
+  padding: 0 1%;
+  background-color: #121212;
+  border: 1px solid #323232;
+  color: #818181;
+  height: 30px;
+}
+
+.container-input_search .container-icon_search{
+  background-color: #323232;
+  height: 30px;
+  width: 60px;
+  border: 1px solid #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-icon_micro{
+  background-color: #121212;
+  border-radius: 100%;
+  margin: 0 2%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-setting_apps{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-setting_apps i{
+    font-size: 1.4rem;
+}
+
+.user_img{
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  border-radius: 100%
+}
+
+.container-header_category{
+  width: 95%;
+  border-top: 1px solid #373737;
+  margin: auto;
+  display: flex;
+}
+
+.container-category{
+  border: 1px solid #373737;
+  margin: 1% 8px;
+  box-sizing: border-box;
+  border-top-left-radius: 50vh;
+  border-top-right-radius: 50vh;
+  border-bottom-left-radius: 50vh;
+  border-bottom-right-radius: 50vh;
+  padding: 0 2%
+}
+
+.container-category p{margin: 15% 0;}
