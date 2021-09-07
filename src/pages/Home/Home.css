@@ -1,7 +1,12 @@
 .container-home{
-  color: red;
   position: relative;
-  top: 15vh;
+  top: 22vh;
   background-color: transparent;
-  height: 100%;
+  width: 80%;
+  margin: 0 1% 0 auto;
+}
+
+.container-videosForYou{
+    display: grid;
+    grid-template-columns: repeat(4, 25%)
 }

@@ -19,7 +19,6 @@
 {
   border-bottom: 1px solid #323232;
   box-sizing: border-box;
-  padding: 0 15%
 }
 
 .area_about{
@@ -57,6 +56,7 @@
   margin: 0 12% 0 0;
 }
 
+.area_icons-c, .area_icons-d p{padding: 0 18.5%}
 .area_icons-c img{margin: 0 7% 0 0}
 
 .area_icons-c h3,
@@ -88,7 +88,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  padding: 0 18.5%
 }
 
 .container-Sidebar .firm{color: gray; margin: 4% 0}

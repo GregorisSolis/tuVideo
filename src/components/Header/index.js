@@ -46,6 +46,12 @@ export default class Header extends Component{
           <ButtonCategory tittle="All"/>
           <ButtonCategory tittle="Music"/>
           <ButtonCategory tittle="Live"/>
+          <ButtonCategory tittle="Pop"/>
+          <ButtonCategory tittle="Rock"/>
+          <ButtonCategory tittle="Lofi"/>
+          <ButtonCategory tittle="Reggeton"/>
+          <ButtonCategory tittle="Dembow"/>
+          <ButtonCategory tittle="Merengue"/>
         </div>
 
       </div>

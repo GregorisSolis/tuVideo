@@ -11,7 +11,7 @@ export default class Sidebar extends Component{
 
         <div className="area_icons-a">
 
-          <div className="container-icon_home">
+          <div className="container-icon_home" style={{background: '#323232'}}>
             <i className="icon-home3"></i>
             <p>Home</p>
           </div>
