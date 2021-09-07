@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import ButtonCategory from '../ButtonCategory'
+import Sidebar from '../Sidebar'
 import './header.css'
 
 import photo_profile from '../../assets/photo_profile.png'
@@ -37,17 +39,17 @@ export default class Header extends Component{
 
       </div>
 
-      <div className="container-header_category">
-        <div className="container-category">
-          <p>Tudo</p>
+      <div className="container-Sidebar_and_category">
+        <Sidebar/>
+
+        <div className="container-header_category">
+          <ButtonCategory tittle="All"/>
+          <ButtonCategory tittle="Music"/>
+          <ButtonCategory tittle="Live"/>
         </div>
-        <div className="container-category">
-          <p>Tudo</p>
-        </div>
-        <div className="container-category">
-          <p>Tudo</p>
-        </div>
+
       </div>
+
 
       </header>
     )

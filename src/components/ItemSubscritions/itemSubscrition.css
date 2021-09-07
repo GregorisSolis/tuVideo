@@ -1,0 +1,15 @@
+.container-ItemSubscritions{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8% auto;
+}
+
+.container-ItemSubscritions img{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.container-ItemSubscritions p{margin: 0}

@@ -1,0 +1,94 @@
+.container-Sidebar{
+  background-color: #202020;
+  width: 18%;
+  height: 92vh;
+  position: fixed;
+}
+
+.container-Sidebar:hover{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: calc(18% + 16px);
+}
+
+.area_icons-a,
+.area_icons-b,
+.area_icons-c,
+.area_icons-d,
+.area_icons-e
+{
+  border-bottom: 1px solid #323232;
+  box-sizing: border-box;
+  padding: 0 15%
+}
+
+.area_about{
+  display: grid;
+  width: 100%;
+  padding: 5% 7.5% 12% 7.5%
+}
+
+.lineA, .lineaB{display: flex;}
+
+.area_about p{
+  font-size: .9rem;
+  color: #aaaaaa;
+  margin: 1% 2%;
+  cursor: pointer;
+}
+
+.area_icons-a p,
+.area_icons-b p,
+.area_icons-c p,
+.area_icons-d p,
+.area_icons-e p
+{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.area_icons-a i,
+.area_icons-b i,
+.area_icons-c i,
+.area_icons-d i,
+.area_icons-e i
+{
+  margin: 0 12% 0 0;
+}
+
+.area_icons-c img{margin: 0 7% 0 0}
+
+.area_icons-c h3,
+.area_icons-d strong{
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+
+.area_icons-d strong, .area_icons-c h3{
+  font-size: .7rem
+}
+
+.container-icon_home,
+.container-icon_compass,
+.container-icon_stack,
+.container-icon_drawer,
+.container-icon_clock,
+.container-icon_yourVideos,
+.container-watch_later,
+.container-liked_videos,
+.container-icon_gaming,
+.container-icon_sport,
+.container-icon_live,
+.container-icon_movies,
+.container-icon_setting,
+.container-reportHistory,
+.container-help
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-Sidebar .firm{color: gray; margin: 4% 0}

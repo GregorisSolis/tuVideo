@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?or0wxt');
-  src:  url('fonts/icomoon.eot?or0wxt#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?or0wxt') format('truetype'),
-    url('fonts/icomoon.woff?or0wxt') format('woff'),
-    url('fonts/icomoon.svg?or0wxt#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dvtial');
+  src:  url('fonts/icomoon.eot?dvtial#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dvtial') format('truetype'),
+    url('fonts/icomoon.woff?dvtial') format('woff'),
+    url('fonts/icomoon.svg?dvtial#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,6 +31,9 @@
 .icon-video-camera:before {
   content: "\e914";
 }
+.icon-podcast:before {
+  content: "\e91c";
+}
 .icon-mic:before {
   content: "\e91e";
 }
@@ -52,6 +55,9 @@
 .icon-keyboard:before {
   content: "\e955";
 }
+.icon-display:before {
+  content: "\e956";
+}
 .icon-drawer:before {
   content: "\e95c";
 }
@@ -64,17 +70,26 @@
 .icon-cog:before {
   content: "\e994";
 }
+.icon-trophy:before {
+  content: "\e99e";
+}
 .icon-list:before {
   content: "\e9ba";
 }
 .icon-menu:before {
   content: "\e9bd";
 }
+.icon-flag:before {
+  content: "\e9cc";
+}
 .icon-smile:before {
   content: "\e9e1";
 }
 .icon-sad:before {
   content: "\e9e5";
+}
+.icon-question:before {
+  content: "\ea09";
 }
 .icon-checkmark:before {
   content: "\ea10";
@@ -114,4 +129,7 @@
 }
 .icon-flickr:before {
   content: "\eaa3";
+}
+.icon-steam:before {
+  content: "\eaac";
 }

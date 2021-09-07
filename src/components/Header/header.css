@@ -3,6 +3,8 @@ header{
   background-color: #202020;
   overflow: hidden;
   position: fixed;
+  z-index: 100;
+  top: 0
 }
 
 .container-header{
@@ -25,7 +27,7 @@ header{
 
 .container-logo_tuvideo i{font-size: 1.8rem; color: red; margin:1%}
 
-.container-logo_tuvideo .logo_tuvideo{margin: 0;}
+.container-logo_tuvideo .logo_tuvideo{margin: 0 4%;}
 
 .container-input_search,
 .container-icon_menu_logo{
@@ -90,21 +92,40 @@ header{
 }
 
 .container-header_category{
-  width: 95%;
+  width: 100%;
   border-top: 1px solid #373737;
-  margin: auto;
   display: flex;
+  height: 65px;
+  margin: 0 0 0 19%;
 }
 
 .container-category{
-  border: 1px solid #373737;
   margin: 1% 8px;
   box-sizing: border-box;
   border-top-left-radius: 50vh;
   border-top-right-radius: 50vh;
   border-bottom-left-radius: 50vh;
   border-bottom-right-radius: 50vh;
-  padding: 0 2%
+  padding: 0 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-category p{margin: 15% 0;}
+.container-category:hover{
+  background-color: #4d4d4d;
+  animation: suave 1s;
+}
+
+.container-category p{margin: 10% 0;}
+
+@keyframes suave {
+    from{
+      color: #fff;
+      background-color: transparent;
+    }
+    to{
+      background-color: #4d4d4d;
+      color: #fff;
+    }
+}
