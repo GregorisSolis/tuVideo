@@ -56,7 +56,7 @@
   margin: 0 12% 0 0;
 }
 
-.area_icons-c, .area_icons-d p{padding: 0 18.5%}
+.area_icons-c h3, .area_icons-d p strong{padding: 0 18.5%}
 .area_icons-c img{margin: 0 7% 0 0}
 
 .area_icons-c h3,
@@ -89,6 +89,25 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 18.5%
+}
+
+.container-icon_home:hover,
+.container-icon_compass:hover,
+.container-icon_stack:hover,
+.container-icon_drawer:hover,
+.container-icon_clock:hover,
+.container-icon_yourVideos:hover,
+.container-watch_later:hover,
+.container-liked_videos:hover,
+.container-icon_gaming:hover,
+.container-icon_sport:hover,
+.container-icon_live:hover,
+.container-icon_movies:hover,
+.container-icon_setting:hover,
+.container-reportHistory:hover,
+.container-help:hover,
+.container-ItemSubscritions:hover{
+  background-color: #323232
 }
 
 .container-Sidebar .firm{color: gray; margin: 4% 0}

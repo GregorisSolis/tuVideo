@@ -3,12 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 8% auto;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5% 18.5%;
 }
 
 .container-ItemSubscritions img{
-  width: 30px;
-  height: 30px;
+  width: 23px;
+  height: 23px;
   border-radius: 100%;
 }
 

@@ -61,8 +61,8 @@ export default class Sidebar extends Component{
           <h3>Subscriptions</h3>
 
           <div className="container-mySubscriptions">
-            <ItemSubscritions nameSubscrition="Auron" url_photo_subscrition="https://img.freepik.com/vetores-gratis/ilustracao-de-impressora-de-tela-de-astronauta_13606-57.jpg?size=626&ext=jpg"/>
-            <ItemSubscritions nameSubscrition="Auron" url_photo_subscrition="https://img.freepik.com/vetores-gratis/ilustracao-de-impressora-de-tela-de-astronauta_13606-57.jpg?size=626&ext=jpg"/>
+            <ItemSubscritions nameSubscrition="paris videos" url_photo_subscrition="https://img.freepik.com/vetores-gratis/ilustracao-de-impressora-de-tela-de-astronauta_13606-57.jpg?size=626&ext=jpg"/>
+            <ItemSubscritions nameSubscrition="James gaming" url_photo_subscrition="https://img.freepik.com/vetores-gratis/ilustracao-de-impressora-de-tela-de-astronauta_13606-57.jpg?size=626&ext=jpg"/>
           </div>
         </div>
 

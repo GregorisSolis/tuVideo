@@ -1,15 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './caratulaVideo.css'
+
+import InfoAlert from '../InfoAlert'
 
 export default function CaratulaVideo(props){
 
+    const [ textAlert, setTextAlert ] = useState('')
+    const [ textAlertButton, setTextAlertButton ] = useState('')
+    const [ showAlert, setShowAlert ] = useState(false)
+
+    function addWatchLater(){
+      setTextAlert('Saved to watch later')
+      setTextAlertButton('UNDO')
+      setShowAlert(true)
+
+      setTimeout(function(){
+        setShowAlert(false)
+      },6000)
+    }
+
     return(
+      <>
+
+      {showAlert ? <InfoAlert textAlert={textAlert} textAlertButton={textAlertButton} /> : ""}
+
       <div className="container-CaratulaVideo">
         <div className="image_caratulaVideo">
           <img src={props.url_image_video} alt="photo_video"/>
           <div className="container-durationTime">
 
-            <div className="container-dualIcons">
+            <div className="container-dualIcons" onClick={() => addWatchLater()}>
               <i className="icon-clock"></i>
             </div>
             <div className="container-dualIcons">
@@ -49,5 +69,6 @@ export default function CaratulaVideo(props){
 
         </div>
       </div>
+      </>
     )
 }

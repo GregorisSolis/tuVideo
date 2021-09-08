@@ -1,0 +1,40 @@
+.container-InfoAlert{
+  position: fixed;
+  z-index: 101;
+  background-color: #333333;
+  height: 55px;
+  width: 22%;
+  bottom: -123px;
+  left: 0;
+  margin: 1%;
+  padding: 1% 2%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  animation: showAlert 9s;
+}
+
+.container-InfoAlert p{
+  margin: 0;
+}
+
+.container-InfoAlert a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #43a8ff;
+}
+
+@keyframes showAlert {
+  0%{bottom: -123px}
+  10%{bottom: -111px}
+  20%{bottom: 0}
+  30%{bottom: 0}
+  40%{bottom: 0}
+  50%{bottom: 0}
+  60%{bottom: 0}
+  80%{bottom: -115px}
+  90%{bottom: -120px}
+  100%{bottom: -123px}
+}
