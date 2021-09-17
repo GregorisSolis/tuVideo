@@ -1,0 +1,37 @@
+.container-background_alert{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed ;
+  z-index: 119;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-alertMessage{
+  background-color: #212121;
+  width: 25%;
+  height: 28vh;
+}
+
+.messageAlert{
+  height: 60%;
+  padding: 2% 5%;
+}
+
+.btns_alertMessage{
+  border-top: 1px solid #383838;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6% 4%;
+  border-radius: 3px;
+}
+
+.container-background_alert button{border: none; background: transparent; cursor: pointer;}
+.container-background_alert .optionA{color: #aaaaaa}
+.container-background_alert .optionB{color: #3ea6ff}
+
+.btns_alertMessage p, .btns_alertMessage h4{margin: 0}

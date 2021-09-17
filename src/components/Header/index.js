@@ -4,12 +4,22 @@ import Sidebar from '../Sidebar'
 import './header.css'
 
 import photo_profile from '../../assets/photo_profile.png'
+import AlertMessage from '../../components/AlertMessage'
+
 
 export default class Header extends Component{
 
   render(){
     return(
       <header>
+
+      <AlertMessage
+        tittleMSG="Queue will be cleared"
+        msg='Are you sure you want to close the player?'
+        textAlertButtonOptionA="CANCEL"
+        textAlertButtonOptionB="CLOSE PLAYER"
+      />
+
       <div className="container-header">
 
         <div className="container-icon_menu_logo">

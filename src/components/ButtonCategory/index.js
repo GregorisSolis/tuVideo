@@ -7,19 +7,13 @@ export default function ButtonCategory(props){
   const [borderColor, setBorderColor] = useState('1px solid #373737')
 
   function changeColor(){
-    if(fontColor === ''){
 
+    if(fontColor === ''){
       setBackgroundColor('#fff');
       setFontColor('#000');
       setBorderColor('1px solid #fff');
-
-    }else if(fontColor === '#000'){
-
-      setBackgroundColor('transparent');
-      setFontColor('');
-      setBorderColor('1px solid #373737');
-
     }
+
   }
 
   return(
