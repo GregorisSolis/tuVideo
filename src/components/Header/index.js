@@ -53,8 +53,8 @@ export default class Header extends Component{
         <Sidebar/>
 
         <div className="container-header_category">
-          <ButtonCategory tittle="All"/>
-          <ButtonCategory tittle="Music"/>
+          <ButtonCategory tittle="All" link="/" />
+          <ButtonCategory tittle="Music" link="/music"/>
           <ButtonCategory tittle="Live"/>
           <ButtonCategory tittle="Pop"/>
           <ButtonCategory tittle="Rock"/>

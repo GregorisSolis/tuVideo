@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './caratulaVideo.css'
 import InfoAlert from '../InfoAlert'
 import PlayList from '../../components/PlayList'
@@ -27,14 +28,12 @@ export default function CaratulaVideo(props){
     function addVideo(video){
 
       if(list.length === 0){
-        let item = { id: 1, url: video.url_image_video, name: video.tittle_video}
+        let item = { id: 1, url: video.url_image_video, name: video.tittle_video, user: props.name_user_video}
         dispatch(addVideoAction(item))
       }else{
-        let item = { id: list.length+1, url: video.url_image_video, name: video.tittle_video}
+        let item = { id: list.length+1, url: video.url_image_video, name: video.tittle_video, user: props.name_user_video}
         dispatch(addVideoAction(item))
       }
-
-      console.log(list)
 
     }
 
@@ -42,7 +41,7 @@ export default function CaratulaVideo(props){
       <>
       {showAlert ? <InfoAlert textAlert={textAlert} textAlertButton={textAlertButton} /> : ""}
 
-      <PlayList/>
+      <PlayList />
 
       <div className="container-CaratulaVideo">
         <div className="image_caratulaVideo">
@@ -53,7 +52,7 @@ export default function CaratulaVideo(props){
               <i className="icon-clock"></i>
             </div>
             <div className="container-dualIcons" onClick={() => addVideo(props)}>
-              <i className="icon-list" onClick={() => dispatch(setDisplayFlex())}></i>
+              <Link to="#" className="icon-menu" onClick={() => dispatch(setDisplayFlex())}></Link>
             </div>
 
             <div className="background_durationTime">

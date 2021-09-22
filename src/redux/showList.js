@@ -24,7 +24,7 @@ export default function showListReducers(state = INITIAL_STATE, action){
 export const setDisplayFlex = () => (dispatch, getState) => {
   dispatch({
     type: SET_DISPLAY_FLEX,
-    payload: 'initial'
+    payload: 'grid'
   })
 }
 

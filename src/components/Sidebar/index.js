@@ -51,7 +51,7 @@ export default class Sidebar extends Component{
           </div>
 
           <div className="container-liked_videos">
-            <i className="icon-smile"></i>
+            <i className="icon-smile2"></i>
             <p>Liked videos</p>
           </div>
 

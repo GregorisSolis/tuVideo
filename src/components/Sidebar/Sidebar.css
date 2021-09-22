@@ -3,9 +3,6 @@
   width: 18%;
   height: 92vh;
   position: fixed;
-}
-
-.container-Sidebar:hover{
   overflow-y: scroll;
   overflow-x: hidden;
   width: calc(18% + 16px);
@@ -65,9 +62,7 @@
   text-transform: uppercase;
 }
 
-.area_icons-d strong, .area_icons-c h3{
-  font-size: .7rem
-}
+.area_icons-d strong, .area_icons-c h3{font-size: .7rem}
 
 .container-icon_home,
 .container-icon_compass,

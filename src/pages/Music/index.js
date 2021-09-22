@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import './Home.css'
 import CaratulaVideo from '../../components/CaratulaVideo'
 
-export default class Home extends Component{
+export default class Music extends Component{
 
   state = {
     videosDB: [
@@ -11,13 +10,13 @@ export default class Home extends Component{
         url_video: "https://cdn.pixabay.com/photo/2021/08/19/12/53/bremen-6557996__340.jpg",
         url_image_user: "https://mundoperdido.com.br/wp-content/uploads/2019/07/Frases-para-namorada-status-tumblr.jpeg",
         title: "the coldest place in the world",
-        name_user: "adventure Time",
+        name_user: "Desafio Tokio",
         numberViews: "1.2M",
         publishedTime: "1 months ago"
       },
       {
         id:2,
-        url_video: "https://cdn.pixabay.com/photo/2021/07/08/03/55/mount-everest-6395759_960_720.jpg",
+        url_video: "https://cdn.pixabay.com/photo/2020/12/03/12/35/sunset-5800386_960_720.jpg",
         url_image_user: "https://cdn.pixabay.com/photo/2019/03/25/20/17/kaohsiung-4081259_960_720.jpg",
         title: "visiting the highest hill in the world",
         name_user: "The focus",
@@ -38,13 +37,13 @@ export default class Home extends Component{
         url_video: "https://cdn.pixabay.com/photo/2021/08/19/12/53/bremen-6557996__340.jpg",
         url_image_user: "https://mundoperdido.com.br/wp-content/uploads/2019/07/Frases-para-namorada-status-tumblr.jpeg",
         title: "the coldest place in the world",
-        name_user: "adventure Time",
+        name_user: "Desafio Tokio",
         numberViews: "7K",
         publishedTime: "1 months ago"
       },
       {
         id:5,
-        url_video: "https://cdn.pixabay.com/photo/2021/07/08/03/55/mount-everest-6395759_960_720.jpg",
+        url_video: "https://cdn.pixabay.com/photo/2020/12/03/12/35/sunset-5800386_960_720.jpg",
         url_image_user: "https://cdn.pixabay.com/photo/2019/03/25/20/17/kaohsiung-4081259_960_720.jpg",
         title: "visiting the highest hill in the world",
         name_user: "The focus",
@@ -65,13 +64,13 @@ export default class Home extends Component{
         url_video: "https://cdn.pixabay.com/photo/2021/08/19/12/53/bremen-6557996__340.jpg",
         url_image_user: "https://mundoperdido.com.br/wp-content/uploads/2019/07/Frases-para-namorada-status-tumblr.jpeg",
         title: "the coldest place in the world",
-        name_user: "adventure Time",
+        name_user: "Desafio Tokio",
         numberViews: "2K",
         publishedTime: "1 months ago"
       },
       {
         id:8,
-        url_video: "https://cdn.pixabay.com/photo/2021/07/08/03/55/mount-everest-6395759_960_720.jpg",
+        url_video: "https://cdn.pixabay.com/photo/2020/12/03/12/35/sunset-5800386_960_720.jpg",
         url_image_user: "https://cdn.pixabay.com/photo/2019/03/25/20/17/kaohsiung-4081259_960_720.jpg",
         title: "visiting the highest hill in the world",
         name_user: "The focus",
@@ -91,7 +90,7 @@ export default class Home extends Component{
   }
 
   componentDidMount(){
-    localStorage.setItem('page', 'All')
+    localStorage.setItem('page', 'Music')
   }
 
   render(){

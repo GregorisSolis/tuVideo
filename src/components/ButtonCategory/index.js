@@ -1,28 +1,30 @@
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 
 export default function ButtonCategory(props){
 
-  const [backgroundColor, setBackgroundColor] = useState('transparent')
+  const [backgroundColor, setBackgroundColor] = useState('#4d4d4d')
   const [fontColor, setFontColor] = useState('')
   const [borderColor, setBorderColor] = useState('1px solid #373737')
 
-  function changeColor(){
+    useEffect(() => {
+      changeColor()
+    })
 
-    if(fontColor === ''){
+  function changeColor(){
+    let local = localStorage.getItem('page')
+    if(fontColor === '' && local === props.tittle){
       setBackgroundColor('#fff');
       setFontColor('#000');
       setBorderColor('1px solid #fff');
     }
-
   }
 
   return(
     <div
       className="container-category"
-      style={{background: backgroundColor, color: fontColor, border: borderColor}}
-      onClick={() => changeColor()}
+      style={{background: backgroundColor, border: borderColor}}
     >
-      <p>{props.tittle}</p>
+      <a style={{color: fontColor}} href={props.link}>{props.tittle}</a>
     </div>
   )
 }

@@ -1,13 +1,11 @@
 .container-CaratulaVideo{
   overflow: hidden;
   width: 96%;
-  height: 238px;
+  height: 256px;
   margin: 1% 1% 12% 1%;
 }
 
-.image_caratulaVideo{
-  display: flex;
-}
+.image_caratulaVideo{display: flex;height: 150px;}
 
 .container-CaratulaVideo .container-durationTime{
   position: absolute;
@@ -24,10 +22,7 @@
   height: 52%;
 }
 
-.container-CaratulaVideo:hover .container-dualIcons{
-  opacity: 1;
-  animation: suavecito .6s;
-}
+.container-CaratulaVideo:hover .container-dualIcons{opacity: 1;animation: suavecito .6s;}
 
 .container-CaratulaVideo .container-durationTime p{
   background-color: rgba(0, 0, 0, 0.9);
@@ -47,46 +42,32 @@
   opacity: 0;
 }
 
-.container-dualIcons i{
+.container-dualIcons i,
+.container-dualIcons a{
   background-color: rgba(0, 0, 0, 0.9);
   margin: 2%;
   padding: 2%;
   border-radius: 2px;
   font-size: 1.1rem;
+  color: #fff
 }
 
-.container-CaratulaVideo .image_caratulaVideo img{
-  position: relative;
-  width: 100%;
-}
-
+.container-CaratulaVideo .image_caratulaVideo img{position: relative;width: 100%;}
 .container-tittles_video{width: 90%}
-
-.container-tittles_video .tittle_video h3{
-  margin: 7% 0 3% 0;
-  font-size: 1rem
-}
+.container-tittles_video .tittle_video h3{margin: 7% 0 3% 0;font-size: 1rem}
 
 .container-description_video .photo_user_profile{
   width: 39px;
   height: 38px;
   overflow: hidden;
   border-radius: 100%;
-  margin: 2% 4% auto 2%;
+  margin: 6% 4% auto 2%;
 }
 
-.container-description_video .photo_user_profile img{
-  width: 100%;
-  height: 100%;
-}
-
+.container-description_video .photo_user_profile img{width: 100%;height: 100%;}
 .container-views{display: flex; align-items: center; font-size: .9rem}
-
 .subtittle_video p{color: #aaaaaa; margin: 0 2%}
-
-.container-description_video{
-  display: flex;
-}
+.container-description_video{display: flex;}
 
 @keyframes suavecito {
   from{

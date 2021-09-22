@@ -8,6 +8,16 @@ header{
   opacity: .98
 }
 
+.container-input_search .container-icon_search,
+.container-icon_micro,
+.container-category,
+.container-logo_tuvideo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-header{
   display: flex;
   align-items: center;
@@ -19,15 +29,9 @@ header{
   padding: 2% 0;
 }
 
-.container-logo_tuvideo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 5%;
-}
+.container-logo_tuvideo{margin: 0 5%;}
 
 .container-logo_tuvideo i{font-size: 1.8rem; color: red; margin:1%}
-
 .container-logo_tuvideo .logo_tuvideo{margin: 0 4%;}
 
 .container-input_search,
@@ -59,9 +63,6 @@ header{
   height: 30px;
   width: 60px;
   border: 1px solid #323232;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container-icon_micro{
@@ -70,9 +71,6 @@ header{
   margin: 0 2%;
   width: 35px;
   height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container-setting_apps{
@@ -108,25 +106,6 @@ header{
   border-bottom-left-radius: 50vh;
   border-bottom-right-radius: 50vh;
   padding: 0 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.container-category:hover{
-  background-color: #4d4d4d;
-  animation: suave 1s;
-}
-
-.container-category p{margin: 10% 0;}
-
-@keyframes suave {
-    from{
-      color: #fff;
-      background-color: transparent;
-    }
-    to{
-      background-color: #4d4d4d;
-      color: #fff;
-    }
-}
+.container-category a{margin: 10% 0; text-decoration: none; color: #fff}

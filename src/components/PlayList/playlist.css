@@ -1,27 +1,28 @@
 .container-playList{
   position: fixed;
-  bottom: 0;
   right: 0;
   z-index: 99;
   width: 29%;
-  height: 43vh;
+  height: 72vh;
   margin: auto 1.5% 0 auto;
   background-color: #212121;
   box-shadow: 1px 1px 1px 1px #121212;
   animation: handleDisplay 1.5s;
+  grid-auto-rows: 46% 5% 6% 1fr;
 }
 
-.container-video_now{display: flex;}
+.container-video_now{display: grid; height: 100%}
 
 .container-icons_videos_now{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  height: 76%;
+  height: 46%;
 }
 
-.container-playList img{
+.container-playList .container-video_now img{
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -42,8 +43,14 @@
   padding: 4%;
 }
 
+.list_video{display: flex; align-items: center; justify-content: space-between;}
+
 .duration_video p, .list_video p{
-  margin: 2%
+  margin: 2%  2% 0 2%;
+}
+
+.list_video i{
+  margin: 3% 2%
 }
 
 .container-name_video h4{
@@ -51,7 +58,53 @@
   padding: 2% 3%
 }
 
-.list_video p{font-size: .8rem; color: #aaaaaa; padding: 0}
+.list_video p{font-size: .8rem; color: #aaaaaa; padding: 1%; margin: 3% 2%}
+
+.container-items_videos{
+  border: 1px solid #383838;
+  background-color: #181818;
+  margin: 1% 0 0 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.item_video{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 6px 0;
+  padding: 1% 2%;
+  color: #fff
+}
+
+.item_video:hover{background-color: #212121}
+
+.item_video img{
+  width: 28%;
+  margin: 0 3% 0 1%;
+
+}
+
+.item_video p, .item_video h5{
+  width: 100%;
+  margin: 0
+}
+
+.item_video p{color: #aaaaaa; font-size: .8rem; margin-top: 3%}
+
+.add_new_playlist{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+   background-color: #212121;
+   padding: 2% 7%;
+   color: #aaaaaa
+ }
+
+.add_new_playlist h4{ margin: 0 2%;}
+
 
 @keyframes handleDisplay {
   from{

@@ -16,9 +16,7 @@
   animation: showAlert 9s;
 }
 
-.container-InfoAlert p{
-  margin: 0;
-}
+.container-InfoAlert p{margin: 0;}
 
 .container-InfoAlert a{
   text-decoration: none;
