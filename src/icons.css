@@ -142,3 +142,8 @@
 .icon-steam:before {
   content: "\eaac";
 }
+.icon-teatro{
+  width: 24px;
+  height: 16px;
+  border: 3px solid #fff;
+}

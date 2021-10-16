@@ -32,7 +32,7 @@ header{
 .container-logo_tuvideo{margin: 0 5%;}
 
 .container-logo_tuvideo i{font-size: 1.8rem; color: red; margin:1%}
-.container-logo_tuvideo .logo_tuvideo{margin: 0 4%;}
+.container-logo_tuvideo .logo_tuvideo{margin: 0 4%; color: #fff; font-weight: bold; font-size: 1.4rem}
 
 .container-input_search,
 .container-icon_menu_logo{
@@ -109,3 +109,32 @@ header{
 }
 
 .container-category a{margin: 10% 0; text-decoration: none; color: #fff}
+
+@media only screen and (max-width: 720px){
+  .container-input_search input,
+  .icon-video-camera,
+  .icon-stack,
+  .icon-bell,
+  .container-icon_micro,
+  .icon-menu
+  {display: none}
+
+  .container-input_search .container-icon_search
+  {background-color: transparent;
+  border: none}
+
+  .container-icon_menu_logo{width: 68%}
+
+  .container-header{width: 100%;}
+
+  .container-input_search
+  {width: 0}
+
+  .container-header_category{margin: 0; overflow: auto; height: 68px;}
+  .container-category{padding: 0 4%}
+}
+
+@media only screen and (max-width: 600px){
+  .container-header{height: 55px}
+  .container-header_category{margin: 0; overflow: auto; height: 58px;}
+}

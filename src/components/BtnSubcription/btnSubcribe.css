@@ -1,0 +1,7 @@
+.sucribe_btn button{
+  border: none;
+  border-radius: 3px;
+  width: 125px;
+  height: 35px;
+  cursor: pointer;
+}

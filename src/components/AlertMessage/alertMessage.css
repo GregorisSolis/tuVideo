@@ -3,11 +3,14 @@
   height: 100vh;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.7);
-  position: fixed ;
+  position: fixed;
   z-index: 119;
-  display: flex;
   align-items: center;
   justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .container-alertMessage{
@@ -35,3 +38,5 @@
 .container-background_alert .optionB{color: #3ea6ff}
 
 .btns_alertMessage p, .btns_alertMessage h4{margin: 0}
+
+.sucribe_btn .messageAlert{text-align: center; padding: 9% 5%; box-sizing: border-box;}

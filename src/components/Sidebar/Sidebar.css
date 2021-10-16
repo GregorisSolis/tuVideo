@@ -101,8 +101,12 @@
 .container-icon_setting:hover,
 .container-reportHistory:hover,
 .container-help:hover,
-.container-ItemSubscritions:hover{
+.container-Sidebar .container-ItemSubscritions:hover{
   background-color: #323232
 }
 
 .container-Sidebar .firm{color: gray; margin: 4% 0}
+
+@media only screen and (max-width: 720px){
+  .container-Sidebar{display: none; width: 0}
+}

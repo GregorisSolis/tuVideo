@@ -4,8 +4,6 @@ import Sidebar from '../Sidebar'
 import './header.css'
 
 import photo_profile from '../../assets/photo_profile.png'
-import AlertMessage from '../../components/AlertMessage'
-
 
 export default class Header extends Component{
 
@@ -13,20 +11,15 @@ export default class Header extends Component{
     return(
       <header>
 
-      <AlertMessage
-        tittleMSG="Queue will be cleared"
-        msg='Are you sure you want to close the player?'
-        textAlertButtonOptionA="CANCEL"
-        textAlertButtonOptionB="CLOSE PLAYER"
-      />
-
       <div className="container-header">
 
         <div className="container-icon_menu_logo">
           <i className="icon-menu"></i>
           <div className="container-logo_tuvideo">
+            <a className="container-logo_tuvideo" href="/">
             <i className="icon-youtube"></i>
             <h3 className="logo_tuvideo">TuVideo</h3>
+            </a>
           </div>
         </div>
 

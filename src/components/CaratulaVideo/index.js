@@ -7,6 +7,7 @@ import PlayList from '../../components/PlayList'
 import { useDispatch, useSelector } from 'react-redux'
 import { addVideoAction } from '../../redux/playlist'
 import { setDisplayFlex } from '../../redux/showList'
+import { intoVideo } from '../../redux/videoOne'
 
 export default function CaratulaVideo(props){
 
@@ -43,13 +44,13 @@ export default function CaratulaVideo(props){
 
       <PlayList />
 
-      <div className="container-CaratulaVideo">
+      <a href="/watch" className="container-CaratulaVideo" onClick={() => dispatch(intoVideo(props))}>
         <div className="image_caratulaVideo">
           <img src={props.url_image_video} alt="photo_video"/>
           <div className="container-durationTime">
 
-            <div className="container-dualIcons" onClick={() => addWatchLater()}>
-              <i className="icon-clock"></i>
+            <div className="container-dualIcons">
+              <Link to="#" className="icon-clock" onClick={() => addWatchLater()}></Link>
             </div>
             <div className="container-dualIcons" onClick={() => addVideo(props)}>
               <Link to="#" className="icon-menu" onClick={() => dispatch(setDisplayFlex())}></Link>
@@ -87,7 +88,7 @@ export default function CaratulaVideo(props){
             </div>
 
         </div>
-      </div>
+      </a>
       </>
     )
 }

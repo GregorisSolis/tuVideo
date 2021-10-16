@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Home.css'
 import CaratulaVideo from '../../components/CaratulaVideo'
+import Header from '../../components/Header'
 
 export default class Home extends Component{
 
@@ -97,11 +98,13 @@ export default class Home extends Component{
   render(){
     return(
       <div className="container-home">
+      <Header/>
 
         <div className="container-videosForYou">
           {this.state.videosDB.map((video) => (
             <CaratulaVideo
               key={video.id}
+              _id={video.id}
               url_image_video={video.url_video}
               url_image_user={video.url_image_user}
               tittle_video={video.title}

@@ -1,0 +1,148 @@
+.container_watch .container-Sidebar_and_category,
+.container_watch .photo_user_profile
+{display: none;}
+
+.container_watch{
+  width: 100%;
+  margin: 6% auto;
+  display: grid;
+  grid-template-columns: 1fr 34%;
+}
+
+.container_reproductor{
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 2% 0 4%;
+}
+
+.container_watch-img{position: relative; z-index: 1}
+
+.container_watch-img,
+.container_watch-img img
+{width: 100%;height: 100%;}
+
+.container_watch-img img{position: absolute;}
+
+.container_watch-btns{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container_watch-btns .content_A,
+.container_watch-btns .content_B{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 90%;
+  height: 48px;
+  width: 50%;
+  padding: 0 2%;
+}
+
+.container_watch-btns .content_A p,
+.container_watch-btns .content_B p
+{margin: 0;}
+
+
+.container_watch-btns .content_B{justify-content: flex-end;}
+
+.container_watch-btns p,
+.line-time{opacity: 0}
+
+.container_watch-btns i{
+  opacity: 0;
+  color: #fff;
+  z-index: 99;
+  font-size: 1.4em;
+  margin: 2%;
+}
+
+.container_reproductor :hover > .container_watch-btns i,
+.container_reproductor :hover > .container_watch-btns p,
+.container_reproductor :hover > .line-time
+{opacity: 1}
+
+.container_reproductor :hover > .container_watch-btns .content_A,
+.container_reproductor :hover > .container_watch-btns .content_B
+{background-image: linear-gradient(180deg, transparent, #080808);}
+
+.line-time{
+  width: 97%;
+  border-bottom: 3px solid red;
+  position: relative;
+  top: 90%;
+  margin: auto;
+}
+
+.item_video-recommendation .container-CaratulaVideo{
+  display: flex;
+  height: 95px;
+  margin: 0 1% 1% 1%;
+}
+
+.container_video-panel{overflow: hidden; width: 64%; position: absolute;}
+.container_video-panel h2{margin-bottom: 6px}
+.container_video-panel p{margin: 5px 0; color: #aaa}
+.WatchVideo-views-likes{display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #424242; width: 96%}
+.WatchVideo-views-likes i{margin: 0 2% 0 8%; font-size: 1.2rem; padding: 2% 0 6% 0;}
+.btns_likes{width: 35%;display: flex; align-items: center;}
+.line_botton .icon-sad2{margin: 0 0 0 12%}
+.line_botton{border-bottom: 2px solid #fff; padding: 2% 4% 4% 4%; display: flex; align-items: center; height: 35px;}
+.line_botton p{margin: 1% 24%}
+.container_video-panel .tittle-views{padding-bottom: 0%}
+.video_description .container-ItemSubscritions{margin: 0; width: 21%; padding: 3% 25% 4% 1%; display: flex; justify-content: flex-start;}
+.video_description .container-ItemSubscritions img{width:50px; height:50px; margin-right: 8%}
+.btn_subcription-img_user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.container_comments{width: 96%;}
+.number_comments{width: 100%; display: flex; align-items: center;}
+.number_comments h4{margin-right: 4%}
+.container_comments img{width: 32px; height: 32px; border-radius: 99%}
+.container_comments input{
+  border: none;
+  background: transparent;
+  margin: 1%;
+  border-bottom: 1px solid #424242;
+  color: #ccc;
+  width: 100%;
+  margin: auto 0 auto 2%;
+  height: 28px;
+}
+.add_comment{display: flex; align-items: center; width: 100%;}
+.container_watch .container-durationTime .icon-clock, .container_watch .container-durationTime .icon-menu{display: none}
+
+.video_description{border-bottom: 1px solid #424242; width: 96%;}
+.video_description .text_description{margin: 0 0 2% 9%}
+
+.WatchVideo-views-likes i, .btns_likes p{padding: 2% 0 6% 0;}
+
+.item_video-recommendation .container-CaratulaVideo:hover{background-color: transparent}
+
+.item_video-recommendation .container-CaratulaVideo .container-durationTime{width: 11%; height: 90px;}
+
+.item_video-recommendation .container-CaratulaVideo  .image_caratulaVideo{height: 90px;  width: 150px;}
+
+.item_video-recommendation .container-tittles_video{margin: 1% auto;}
+
+.item_video-recommendation .container-CaratulaVideo .background_durationTime{height: 38%; width: 100%}
+
+.item_video-recommendation .container-CaratulaVideo .container-dualIcons{width: 100%;}
+
+.item_video-recommendation .container-tittles_video .tittle_video h3{margin: 2% auto 3% auto;}
+.item_video-recommendation .container-views p{font-size: .8rem}
+
+.item_video-recommendation .container-CaratulaVideo .container-dualIcons i,
+.item_video-recommendation .container-CaratulaVideo .container-dualIcons a
+{font-size: 1.1rem; padding: 3%}
+
+.item_video-recommendation .container-CaratulaVideo .container-dualIcons{height: 27px;}

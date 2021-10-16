@@ -1,8 +1,7 @@
-  import './icons.css'
-import Header from './components/Header'
 import Routes from './routers/router'
 import {Provider} from 'react-redux'
 import generateStore from './redux/store'
+import './icons.css'
 
 function App() {
 
@@ -11,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <Header/>
         <Routes/>
       </Provider>
     </div>
