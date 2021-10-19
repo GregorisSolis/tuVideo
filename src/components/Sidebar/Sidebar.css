@@ -108,5 +108,5 @@
 .container-Sidebar .firm{color: gray; margin: 4% 0}
 
 @media only screen and (max-width: 720px){
-  .container-Sidebar{display: none; width: 0}
+  .container-Sidebar{width: 40%}
 }

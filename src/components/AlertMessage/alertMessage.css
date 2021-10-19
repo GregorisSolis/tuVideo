@@ -40,3 +40,9 @@
 .btns_alertMessage p, .btns_alertMessage h4{margin: 0}
 
 .sucribe_btn .messageAlert{text-align: center; padding: 9% 5%; box-sizing: border-box;}
+.container_watch .messageAlert h4{display: none}
+
+@media only screen and (max-width: 720px){
+  .container-alertMessage{width: 82%;height: 18vh;}
+  .btns_alertMessage{padding: 4% 1%}
+}

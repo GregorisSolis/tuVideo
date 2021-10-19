@@ -8,7 +8,7 @@ import showAlertReducers from './showAlert'
 const rootReducer = combineReducers({
   playlist: playlistReducers,
   showList: showListReducers,
-  showAlert: showAlertReducers
+  showAlert: showAlertReducers,
 })
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

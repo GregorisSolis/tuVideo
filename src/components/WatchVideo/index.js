@@ -45,7 +45,7 @@ const WatchVideo = () => {
                 <i className="icon-sad2"></i><p>1</p>
               </div>
               <i className="icon-share"></i><p>SHARE</p>
-              <i className="icon-menu"></i><p>SAVE</p>
+              <i className="icon-drawer"></i><p>SAVE</p>
             </div>
         </div>
         <div className="video_description">

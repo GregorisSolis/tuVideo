@@ -113,7 +113,7 @@ header{
 @media only screen and (max-width: 720px){
   .container-input_search input,
   .icon-video-camera,
-  .icon-stack,
+  .container-header .icon-stack,
   .icon-bell,
   .container-icon_micro,
   .icon-menu
@@ -132,9 +132,12 @@ header{
 
   .container-header_category{margin: 0; overflow: auto; height: 68px;}
   .container-category{padding: 0 4%}
+  .container-setting_apps{width: 8%}
+
 }
 
 @media only screen and (max-width: 600px){
   .container-header{height: 55px}
   .container-header_category{margin: 0; overflow: auto; height: 58px;}
+  .container-setting_apps{width: 12%}
 }

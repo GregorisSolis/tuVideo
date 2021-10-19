@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ButtonCategory from '../ButtonCategory'
 import Sidebar from '../Sidebar'
+import NavMobile from '../NavMobile'
 import './header.css'
 
 import photo_profile from '../../assets/photo_profile.png'
@@ -10,7 +11,7 @@ export default class Header extends Component{
   render(){
     return(
       <header>
-
+      <NavMobile/>
       <div className="container-header">
 
         <div className="container-icon_menu_logo">

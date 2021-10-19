@@ -1,4 +1,4 @@
-.container_watch .container-Sidebar_and_category,
+.container_watch .container-header_category,
 .container_watch .photo_user_profile
 {display: none;}
 
@@ -146,3 +146,44 @@
 {font-size: 1.1rem; padding: 3%}
 
 .item_video-recommendation .container-CaratulaVideo .container-dualIcons{height: 27px;}
+
+@media only screen and (max-width: 720px){
+  .container_watch{margin:8% 0 0 0; grid-template-columns: 1fr; grid-template-rows: 720px 1fr}
+  .container_reproductor{padding: 0;height: 350px;}
+  .item_video-recommendation .container-CaratulaVideo .image_caratulaVideo{height: 350px; width: 100%}
+  .item_video-recommendation .container-CaratulaVideo .container-durationTime, .video_description{width: 100%}
+  .container_video-panel{width: 100%; box-sizing: border-box; padding: 0 2%;}
+  .item_video-recommendation .container-CaratulaVideo{display: block; margin: 0; height: 70vh}
+  .container_watch .item_video-recommendation .container-CaratulaVideo .background_durationTime{height: 292px}
+  .container_watch .photo_user_profile{display: flex;}
+  .container-tittles_video{width: 65%}
+  .item_video-recommendation .container-tittles_video{margin: 2% auto 1% 0;}
+  .container_watch .item_video-recommendation .container-tittles_video .tittle_video h3{margin: 0 auto 1% auto; font-size: 1.7rem}
+  .container_watch-btns .content_A, .container_watch-btns .content_B, .line-time{top: 87%}
+  .video_description .container-ItemSubscritions{width: 24%}
+  .WatchVideo-views-likes{display: block; width: 100%;}
+  .line_botton{border: none;}
+  .btns_likes i, .btns_likes p, .line_botton{ padding: 0;}
+  .line_botton{font-size: 1.5rem}
+  .btns_likes p{display: none}
+  .btns_likes{width: 100%; display: flex; justify-content: space-around; align-items: center; padding: 2% 0%}
+}
+
+.container_watch .container-Sidebar, .container_watch .icon-menu{display: none;}
+
+@media only screen and (max-width: 600px){
+  .container_watch{margin: 14% 0 0 0}
+  .container_reproductor{height: 270px;}
+  .video_description .container-ItemSubscritions{width: 48%;}
+  .video_description .text_description{margin: 1% 0 4% 18%;}
+  .item_video-recommendation .container-CaratulaVideo .image_caratulaVideo{height: 27vh}
+  .container_watch .item_video-recommendation .container-CaratulaVideo .background_durationTime{height: 166px;}
+  .item_video-recommendation .container-tittles_video{margin: 0;}
+  .container-tittles_video{width: 90%}
+  .name_user_video {width: 40%;}
+  .item_video-recommendation .container-CaratulaVideo{height: 38vh}
+  .container_watch-btns .content_A, .container_watch-btns .content_B, .line-time{top: 82%;}
+  .video_description .container-ItemSubscritions{padding: 4% 4% 4% 1%}
+  .container_watch .item_video-recommendation .container-tittles_video .tittle_video h3{font-size: 1.4rem}
+  .item_video-recommendation .container-tittles_video{margin: 3% 0}
+}

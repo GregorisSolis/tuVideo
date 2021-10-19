@@ -6,6 +6,10 @@ import WatchVideo from '../../components/WatchVideo'
 
 export default class Watch extends Component{
 
+  componentDidMount(){
+    localStorage.setItem('page', 'Watch')
+  }
+
   state = {
     videosDB: [
       {
@@ -118,6 +122,7 @@ export default class Watch extends Component{
       }
     ]
   }
+
 
   render(){
     return(
